@@ -28,6 +28,11 @@ The GUI is created using the tkinter library, allowing the application to create
 
 ![GUI](images/gui.png)
 
+### Calendar Integration
+A visual calendar is incorporated to display the availability of group members. Days change color based on member availability. The tkcalendar library is used for this purpose.
+
+![Calendar](images/calendar.png)
+
 ### Pop-Up Messages
 The messagebox library from tkinter is used to display user-friendly messages, such as username availability when creating an account.
 
@@ -40,11 +45,6 @@ To display group information, the Treeview library from tkinter is used. It help
 
 ### Updating Tables
 Tables are updated automatically to reflect changes, such as when a new group is created.
-
-### Calendar Integration
-A visual calendar is incorporated to display the availability of group members. Days change color based on member availability. The tkcalendar library is used for this purpose.
-
-![Calendar](images/calendar.png)
 
 ### Database Mediator
 A separate file, "db.py," is dedicated to database interaction. It defines a MySQL connector and functions to create, retrieve, and modify data in the database.
